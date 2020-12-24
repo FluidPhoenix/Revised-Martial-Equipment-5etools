@@ -437,8 +437,7 @@
 				"AFX",
 				"DEF",
 				"DIS",
-				"L",
-				"TRP"
+				"L"
 			],
 			"entries": [
 				{
@@ -644,7 +643,7 @@
 					"type": "entries",
 					"name": "Master Perk",
 					"entries": [
-						"When you score a critical hit, make an additional melee attack to another creature adjacent to you as part of the same action."
+						When you score a critical hit or reduce a target to 0hp, you may make an additional melee attack to another creature adjacent to you as part of the same action."
 					]
 				}
 			],
