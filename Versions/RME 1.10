@@ -224,6 +224,19 @@
 			]
 		},
 		{
+			"abbreviation": "STG",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Stagger",
+					"entries": [
+						"The weight of your weapon can stagger the enemy's block, causing them a minor distraction as the massive blow of the weapon you wield knocks them off guard. When you miss a creature that you can see with this weapon without rolling a 1, but the attack roll totals 10 or higher, the next attack against this same creature gains advantage. When you hit, you can choose to deal only your Strength modifier in damage and impart this effect voluntarily."
+					]
+				}
+			]
+		},
+		{
 			"abbreviation": "TRP",
 			"source": "RME",
 			"entries": [
@@ -297,7 +310,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"You have advantage on opportunity attacks made with this weapon. Additionally, if this weapon is in your off hand, you may make an opportunity attack with your main hand and this weapon."
+						"You have advantage on attacks made outside of your turn, such as opportunity attacks. Additionally, if this weapon is in your off hand, you may make an opportunity attack with your main hand and this weapon."
 					]
 				}
 			],
@@ -432,7 +445,7 @@
 					"type": "entries",
 					"name": "Mastery Perk",
 					"entries": [
-						"When hit with a melee attack, as a reaction before the damage, you can attempt a disarm attack. If successful, you take no damage."
+						"When hit with a melee attack, as a reaction before the damage, you can attempt a disarm attack. If the enemy fails the save you take no damage in addition to disarming your enemy."
 					]
 				},
 				{
