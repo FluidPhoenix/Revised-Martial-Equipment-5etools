@@ -9,7 +9,7 @@
 		]
 	},
 	"itemProperty": [
-	{
+		{
 			"abbreviation": "AFX",
 			"source": "RME",
 			"entries": [
@@ -250,61 +250,235 @@
 			]
 		}
 	],
+	"weaponCategory": [
+		{
+			"abbreviation": "Ambush",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Ambush Weapons",
+					"entries": [
+						"These weapons are not designed for battle, rather for close quarters or surprise attacks. They are easily hidden or mundane, and in the right hands can end a fight before it's even started. Ambush masters have learned to strike more critically, taking full advantage of a surprise attack, and can strike fast enough to turn an enemy's miss into an opening."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Axe",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Axes",
+					"entries": [
+						"Axes easily chop through targets using weight instead of a honed edge and an axe beard in the hands of a trained combatant can be used to trip and bind, even disarm. Axe masters carry the weight of the head through soft targets and into others and can fell even the stoutest foes with a woodcutter's swing."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Bludgeon",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bludgeons",
+					"entries": [
+						"Bludgeons are simple weapons that rely on pure weight over control. However, they have additional uses in stunning, disabling and fatiguing the enemy with repeated and precise blows to the head or body. A master with these brutish weapons more deftly causes stuns and exhaustion."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Bow & Sling",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Bows and Slings",
+					"entries": [
+						"The bow is as ancient as civilization itself, the tool of the hunter, sniper, assassin and soldier alike. Bows require more training than crossbows, but reload faster, making them stil hold relevance in the age of mechanical winding and gunpowder. A master archer places arrows as effortlessly as a master swordsman places their blade, sending arrows around corners and into other ranged attacks. They can also use their bow offensively to trip or block as they put distance between themselves and the enemy."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Combat Blade",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Combat Blades",
+					"entries": [
+						"Combat blades are military weapons designed for soldiers at war. These weapons are long, powerful swords designed for maximum reach and damage. A master with combat blades takes full advantage of the guard, and takes the best advantage of the opportunity to rout an enemy. Few weapons are as damaging or devoted to battle as Combat Blades."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Crossbow",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Crossbows",
+					"entries": [
+						"Crossbows require less training to operate than a bow and are often more powerful, but their reload time keeps them from making the former obsolete, while their ease of use prevents them from being made obsolete by firearms. Unlike a bow, crossbows require time to reload, shown in their description. They pack a harder punch to make up for slower attacks. Masters of the crossbow shoot in combat without distraction, and can reliably hit two targets with a single bolt."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Dueling Blade",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Dueling Blades",
+					"entries": [
+						"Dueling blades are smaller, lighter weapons designed for civilian defense or judicial duels. These weapons deal less damage but have more specialized uses, often used with finesse. A dueling blade master uses the weapon speed to take advantage of a distraction and the dueling nature to deflect countless blows while dueling a single enemy."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Firearm",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Firearms",
+					"entries": [
+						"These are late medieval to early renaissance period firearms which either strike flint or touch a lit wick to a flash pan, igniting gunpowder and propelling a projectile in most cases. They are prone to jamming, require specialized training, and create loud sound and smoke which can be to the detriment of the user. However, even combat blades struggle to have as much stopping power as even the smallest firearm. Master musketeers can quickly clear a jam, use the firearm as a melee weapon in close combat, and can fire more accurately with their shots."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Flail & Whip",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Flails and Whips",
+					"entries": [
+						"These are weapons of misdirection and circular momentum. While the weapon design may not always be optimal, the reach and flexibility gives additional options in battle. Masters with the flail and whip can swing around shields, and use the binding property of their weapon to trip foes unready for the attack."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Hammer & Pick",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Hammers and Picks",
+					"entries": [
+						"Designed in the late middle ages as primarily anti-armor, these weapons differ from bludgeons in that they require control of a concentrated point or face to be of any use. However, even a proficient warrior can injure even the most well protected knight with a well placed hammer or pick. Masters knock foes to the ground and can even pierce or bludgeon a target through the armor that stops a hit."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Polearm",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Polearms",
+					"entries": [
+						"These are weapons of reach, usually a weapon mounted on a lengthy pole. These weapons are often designed for use in standard infantries, and have natural capabilities against charging cavalry or massive targets. A master has developed such precision he can strike as a reaction at reach and can even strike with the butt of the weapon in close quarters."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Spear",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Spears",
+					"entries": [
+						"A feature in almost every military in history, spears have an efficiency unmatched in terms of production, training, and application. It's hard to compete with the simple design, extended reach, and stopping power of a spear. Masters have acquired the lunge, and have such disciplined accuracy, they can make the smallest opportunity into a killing thrust."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "Throwing",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Throwing Weapons",
+					"entries": [
+						"These weapons allow snap precision in combat at medium range. Often paired with special abilities, throwing is a very unique combat style. In addition to the weapons in this group, master training in the throwing weapons group allows master training with all weapons that have the thrown weapon feature, and a master can curve throws around corners or snap throw at any distracted enemy in an instant."
+					]
+				}
+			]
+		},
+	],
 	"item": [
 		{
 			"name": "Punch Dagger (Simple)",
+			"source": "RME",
+			"page": 15,
 			"type": "M",
-			"weapon": true,
-			"weaponCategory": "Ambush",
 			"rarity": "none",
-			"value": 100,
 			"weight": 1,
-			"dmg1": "1d4",
-			"dmg2": "",
-			"dmgType": "piercing or slashing",
+			"value": 100,
+			"weaponCategory": "Ambush",
 			"property": [
 				"CCL",
 				"F",
 				"L"
 			],
-			"source": "RME"
+			"dmg1": "1d4",
+			"dmgType": "piercing or slashing",
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Punch Dagger (Martial)",
+			"source": "RME",
+			"page": 15,
 			"type": "M",
-			"weapon": true,
-			"weaponCategory": "Ambush",
 			"rarity": "none",
-			"value": 100,
 			"weight": 1,
-			"dmg1": "1d4",
-			"dmg2": "",
-			"dmgType": "piercing or slashing",
+			"value": 100,
+			"weaponCategory": "Ambush",
 			"property": [
 				"CCL",
 				"F",
 				"L",
 				"PEN"
 			],
-			"source": "RME"
+			"dmg1": "1d4",
+			"dmgType": "piercing or slashing",
+			"weapon": true,
+			"entries": []
 		},
 		{
 			"name": "Punch Dagger (Master)",
+			"source": "RME",
+			"page": 15,
 			"type": "M",
-			"weapon": true,
-			"weaponCategory": "Ambush",
 			"rarity": "none",
-			"value": 100,
 			"weight": 1,
-			"dmg1": "1d4",
-			"dmg2": "",
-			"dmgType": "piercing or slashing",
+			"value": 100,
+			"weaponCategory": "Ambush",
 			"property": [
 				"CCL",
 				"F",
 				"L",
 				"PEN"
 			],
+			"dmg1": "1d4",
+			"dmgType": "piercing or slashing",
+			"weapon": true,
 			"entries": [
 				{
 					"type": "entries",
@@ -313,8 +487,7 @@
 						"You have advantage on attacks made outside of your turn, such as opportunity attacks. Additionally, if this weapon is in your off hand, you may make an opportunity attack with your main hand and this weapon."
 					]
 				}
-			],
-			"source": "RME"
+			]
 		},
 		{
 			"name": "Whip Dagger (Simple)",
@@ -821,19 +994,21 @@
 		},
 		{
 			"name": "Battle Axe (Martial)",
+			"source": "RME",
+			"page": 17,
 			"type": "M",
-			"weapon": true,
-			"weaponCategory": "Axe",
 			"rarity": "none",
-			"value": 1000,
 			"weight": 4,
-			"dmg1": "1d8",
-			"dmg2": "1d10",
-			"dmgType": "S",
+			"value": 1000,
+			"weaponCategory": "Axe",
 			"property": [
 				"TRP",
 				"V"
 			],
+			"dmg1": "1d8",
+			"dmgType": "S",
+			"dmg2": "1d10",
+			"weapon": true,
 			"entries": [
 				{
 					"type": "entries",
@@ -842,8 +1017,7 @@
 						"Versatile damage is 1d10."
 					]
 				}
-			],
-			"source": "RME"
+			]
 		},
 		{
 			"name": "Battle Axe (Master)",
