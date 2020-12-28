@@ -1,0 +1,8439 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Revised-Martial-Equipment",
+				"abbreviation": "RME",
+				"full": "Revised Martial Equipment"
+			}
+		]
+	},
+	"itemProperty": [
+	{
+			"abbreviation": "AFX",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Affixed",
+					"entries": [
+						"This piece of equipment can be wielded in the main or off hand and while dual wielding, the other weapon does not need the Light property. Affixed weapons are equipped or taken off as an Action and cannot be disarmed. While worn, it can be equipped for free during your turn, and if you are not wielding it, it remains attached to your body, leaving your hand open for other things. An Affixed weapon cannot be wielded alongside a Two-Handed weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "AW",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Awkward",
+					"entries": [
+						"This weapon requires additional training to use properly, but you still get limited use with it. You do not add your proficiency bonus while rolling an attack with this weapon."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "CCL",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Conceal",
+					"entries": [
+						"You gain advantage on Sleight of Hand Checks made to conceal this weapon on your person."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "BR",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Brace",
+					"entries": [
+						"As an Action you choose to Brace. On your turn, choose any targets you can see that are more than 20 feet away from you. If any of those targets move within your weapon’s reach before your next turn, as a reaction you can roll one melee attack against them with advantage, which uses your reaction. If the attack hits, treat the attack as a critical hit. While bracing, you cannot use a different reaction. While bracing, if you move or are moved against your will, you can no longer perform this attack and must brace again at the start of your turn to do so again. A brace attack is not an Opportunity Attack."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DEF",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Deflect",
+					"entries": [
+						"If struck by a melee weapon attack, you can use your reaction to roll your weapon’s damage plus your strength modifier, then subtract that total from the damage dealt to you for one attack. If you are dual wielding deflect weapons, you gain an additional reaction which may only be used to deflect."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DIS",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Disarm",
+					"entries": [
+						"You may only make a disarm attack with weapons that have the Disarm property, unless you have an ability that says otherwise. Choosing a Disarm attack, you deal damage equal to your Strength modifier, minimum of 1, and force your enemy to roll their choice of a Strength or Dexterity saving throw. On a failure, it drops one held object of your choice, landing within 5ft of it. If the enemy is a category size larger than you or is using a two-handed weapon, it gains advantage on this save. If it is smaller than you, it suffers disadvantage. If you land a critical hit with this attack, your weapon deals normal damage in addition to forcing your enemy to roll the saving throw."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "DBL",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double Ended",
+					"entries": [
+						"You make one additional attack as a Bonus action using the damage listed plus your ability modifier, if you are within 5 ft of your target and wielding your weapon with two hands. Double Ended attacks do not benefit from any other weapon property, nor can they make special attacks such as Disarm, Entangle, or Trip. A Double Ended attack is strictly damage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "ENT",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Entangle",
+					"entries": [
+						"Choosing an Entangle attack, you deal only your Strength modifier in damage, minimum of 1, and force the enemy to succeed on a Strength or Dexterity Saving Throw or be grappled. To escape, the entangled target must succeed a grapple check against your weapon DC, gaining advantage if it is a size category larger than you. Creatures two size categories larger than you are immune to Entangle. If you land a critical hit, your weapon deals normal damage in addition to forcing your enemy to roll the saving throw. While you are holding the weapon entangling your target, your attacks only damage equal to your Strength modifier, but automatically hit. You can release an entangled enemy at any time. If you drop the weapon, the foe is automatically freed."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "FIN",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Finesse",
+					"entries": [
+						"When making an attack with a finesse weapon, you may use Dexterity modifier for the attack and damage rolls, and substitute Strength for Dexterity in your Weapon DC equation."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "FIR",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Firearm",
+					"entries": [
+						"Rolling a 1 on an Attack Roll causes this weapon to jam. It's still loaded, but a malfunction prevented ignition. As an action, you must clear the jam before it can make a ranged attack again. Firearm weapons can't make ranged attacks underwater, and if they are subjected to water such as from rain or a tidal wave spell, they gain +1 to their jam until you spend an action to dry them. All firearms create a sound which can be heard up to 300ft away. Firearm weapons that have the Ranged property require gunpowder and either lead ball, bullet, or shot loaded into it to make an attack. This ammunition is not recoverable. Additionally, Firearm weapons with Launch are not recoverable, even if they jam."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LNC",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Launch",
+					"entries": [
+						"On miss, this weapon lands on the ground within 5ft of the intended target. Roll a d8. The result is which square it lands in, starting with the square closest to you as 1, and counting clockwise until you reach the rolled number. An enemy in this square may still be damaged if the Launch weapon says so."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "LUN",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Lunge",
+					"entries": [
+						"If you use an attack action, you can use your reaction to attack a foe up to 5ft further than normal with all attacks for that turn, which can be combined with Reach. This ends with your turn and can't be used as part of an Opportunity Attack."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "PEN",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Penetrate",
+					"entries": [
+						"These weapons easily penetrate armor. While attacking an enemy using a shield or wearing heavy armor, you can roll total damage from your weapon and any attachers twice and take the better result."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "RCH",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reach",
+					"entries": [
+						"This weapon adds 5 feet to your reach when you make a melee weapon attack, as well as for determining your reach for Opportunity Attacks with it. Note that if there is a creature between you and your enemy within reach, your enemy has half cover. Reach cannot be used to extend the range of a Double Ended attack."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "REL",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Some ranged weapons take a time to reload, though trained users can reload faster. Reload times are expressed in types of game actions. From fastest to slowest, these are; part of attack, object interaction, reaction, bonus, attack, action. The following rules apply to all Reload weapons:",
+						"Reload requires two hands unless otherwise stated. If dual wielding with a Reload weapon, the other item must be sheathed or dropped to Reload. Remember that sheathing a weapon requires an Object Interaction.",
+						"Reload as Object Interaction feels like a free reload, with the free Object Interaction on your turn, and in most cases it is. But for example, if you are attempting to reload and open a door, you will only be able to do one.",
+						"Reloading as Attack means you use an Attack action and one of your attacks is used to instead reload. If you have 3 attacks, you attack once, use an attack to reload, then attack again.",
+						"You must always reload your weapon before using it for a ranged weapon attack again. If your weapon was empty at the end of your turn, it must be reloaded at the start of your next turn if you plan to attack with it.",
+						"Anything which grants an Action, such as Haste or Action Surge, can be used to reload. Furthermore, a Rogue Thief's Fast Hands can shorten an Action or Attack reload to a Bonus action.",
+						"You have the choice of reloading your weapon with any of the options that are slower. For example, a crossbow master using a light crossbow is able to reload using an Object Interaction, but can reload with a Reaction, a Bonus Action, an Attack, or an Action."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "THR",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Thrown",
+					"entries": [
+						"Thrown weapons are used to make a ranged attack by throwing them at the enemy, dealing their melee damage on hit. They use Strength for attack and damage, unless the weapon has the Finesse property. When attacking enemies beyond the normal range or with an enemy within 5ft of you, you suffer disadvantage to attack rolls. You may draw and throw a weapon as part of the attack. Without Thrown property on a weapon, the weapon is treated as an improvised weapon if you throw it and may only cause a small amount of damage."
+					]
+				}
+			]
+		},
+		{
+			"abbreviation": "TRP",
+			"source": "RME",
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Trip",
+					"entries": [
+						"Choosing a trip attack, you deal only your Strength modifier in damage on hit, minimum of 1, and your enemy must succeed on a Strength or Dexterity Saving Throw or be knocked prone. If you land a critical hit, your weapon deals normal damage in addition to forcing your enemy to roll the saving throw. Enemies a size category larger than you gain advantage on this save. Enemies two size categories larger than you are immune to being tripped in this way."
+					]
+				}
+			]
+		}
+	],
+	"item": [
+		{
+			"name": "Punch Dagger (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"CCL",
+				"F",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Punch Dagger (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"CCL",
+				"F",
+				"L",
+				"PEN"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Punch Dagger (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"CCL",
+				"F",
+				"L",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You have advantage on opportunity attacks made with this weapon. Additionally, if this weapon is in your off hand, you may make an opportunity attack with your main hand and this weapon."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Whip Dagger (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"AW",
+				"F",
+				"R",
+				"2H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Whip Dagger (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"ENT",
+				"F",
+				"R",
+				"2H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Whip Dagger (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"AFX",
+				"CCL",
+				"ENT",
+				"F",
+				"LUN",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When your attack is successful, as a Bonus Action, you can choose to force the enemy to succeed on a Strength saving throw or be pulled up to 10ft toward you."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Gauntlet (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "bludgeoning, piercing, or slashing",
+			"property": [
+				"AFX",
+				"DEF"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Gauntlet (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning, piercing, or slashing",
+			"property": [
+				"AFX",
+				"DEF",
+				"DIS",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Gauntlet (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 1,
+			"dmg1": "1d6*",
+			"dmg2": "",
+			"dmgType": "bludgeoning, piercing, or slashing",
+			"property": [
+				"AFX",
+				"DEF",
+				"DIS",
+				"L",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When hit with a melee attack, as a reaction before the damage, you can attempt a disarm attack. If successful, you take no damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Damage Scaling*",
+					"entries": [
+						"The Damage Die scales with your Proficiency Bonus, changing to a d8 at a +5 PB, then a d10 at +6 PB"
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Hidden Blade (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"AFX",
+				"AW",
+				"CCL",
+				"F",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Hidden Blade (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"AFX",
+				"CCL",
+				"F",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Hidden Blade (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"AFX",
+				"CCL",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Any hit against a surprised creature takes maximum damage from this weapon and any attachers, instead of rolling for the damage."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Interceptor (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 300,
+			"weight": 1,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"AFX",
+				"CCL",
+				"DEF",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Wielding an interceptor gives you +1 AC."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Interceptor (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 300,
+			"weight": 1,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"AFX",
+				"CCL",
+				"DEF",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Wielding an interceptor gives you +1 AC."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Master Perk",
+					"entries": [
+						"You may use the Deflect property against ranged weapons. When a creature you can see attacks a target that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Knuckle Axe (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"AW",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Knuckle Axe (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DEF",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Knuckle Axe (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DEF",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Master Perk",
+					"entries": [
+						"When you score a critical hit, make an additional melee attack to another creature adjacent to you as part of the same action."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Side Baton (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Side Baton (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"DEF",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Side Baton (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"DEF",
+				"L",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Your deflect roll is d10, rather than d8, and you may add your proficiency to this roll."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Unarmed Strike (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 0,
+			"weight": 0,
+			"dmg1": "1d1",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"AW"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Unarmed strikes do not count as weapon attacks until you have mastery training with them."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Unarmed Strike (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 0,
+			"weight": 0,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"F",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Unarmed strikes do not count as weapon attacks until you have mastery training with them."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Unarmed Strike (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Ambush",
+			"rarity": "none",
+			"value": 0,
+			"weight": 0,
+			"dmg1": "1d4*",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"DEF",
+				"DIS",
+				"F",
+				"L",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Damage Scaling*",
+					"entries": [
+						"The Damege Die scales with your Proficiency Bonus. increasing to a d6 at +4 PB, then a d8 at +5 PB, then again to a d10 at +6."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You may use your bonus action to perform a Shove or Disarm attack. You may make an Unarmed attack as an off hand attack even if you're wielding a Versatile or One-Handed weapon that's not Light."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Unarmed strikes do not count as weapon attacks until you have mastery training with them."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Battle Axe (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 4,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Battle Axe (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 4,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "S",
+			"property": [
+				"TRP",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Versatile damage is 1d10."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Battle Axe (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 4,
+			"dmg1": "1d10",
+			"dmg2": "1d12",
+			"dmgType": "S",
+			"property": [
+				"TRP",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Reroll a damage dice result of 1 or 2 for both weapon damage and any attachers."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Versatile damage is 1d10."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Greataxe (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 3000,
+			"weight": 6,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"2H",
+				"AW",
+				"H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Greataxe (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 3000,
+			"weight": 6,
+			"dmg1": "1d12",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"2H",
+				"DIS",
+				"H",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Greataxe (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 3000,
+			"weight": 6,
+			"dmg1": "2d8",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"2H",
+				"DIS",
+				"H",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you roll at least 5 higher than the enemy's AC, you can roll all damage and any modifiers twice and take the better result."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Halberd (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 3500,
+			"weight": 7,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"AW",
+				"BR",
+				"H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Halberd (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 3500,
+			"weight": 7,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"BR",
+				"H",
+				"R",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Halberd (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 3500,
+			"weight": 7,
+			"dmg1": "3d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"BR",
+				"ENT",
+				"H",
+				"R",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You gain advantage on trip attacks made to mounted enemies and Large creatures. If your trip is successful against a mounted foe, it is automatically pulled from its mount to a prone position. You gain advantage on entangle attacks made against enemies two size categories larger than you."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Handaxe (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 500,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"T"
+			],
+			"range": "10/30",
+			"source": "RME"
+		},
+		{
+			"name": "Handaxe (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 500,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"T",
+				"L",
+				"TRP"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Handaxe (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 500,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"T",
+				"DIS",
+				"L",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You gain advantage on all disarm attacks"
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Hook Sword (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 6000,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Hook Sword (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 6000,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DEF",
+				"DIS",
+				"F",
+				"L",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Hook Sword (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 6000,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DEF",
+				"DIS",
+				"F",
+				"L",
+				"ENT",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you are hit with a melee weapon attack, as areaction you can make a disarm or entangle attack against that enemy. While dual wielding two hook swords, you have reach and lunge."
+						]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Khopesh (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "slashing or piercing",
+			"property": [
+				"AW",
+				"DIS"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you make a trip attack, if you hit, even if they save against the attempt your enemy's speed is reduced by 10ft until the end of their next turn. While they have this penalty, they have disadvantage saving throws against a trip attack."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Khopesh (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 3,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "slashing or piercing",
+			"property": [
+				"DIS",
+				"TRP",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Khopesh (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 3,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "slashing or piercing",
+			"property": [
+				"DIS",
+				"TRP",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you make a trip attack, if you hit, even if they save against the attempt, your enemy's speed is reduced by 10ft until the end of their next turn. While they have this penalty, they have disadvantage saving throws against a trip attack."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Poleaxe (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 4000,
+			"weight": 7,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "bludgeoning, piercing, or slashing",
+			"property": [
+				"2H",
+				"AW",
+				"H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Poleaxe (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 4000,
+			"weight": 7,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "bludgeoning, piercing, or slashing",
+			"property": [
+				"2H",
+				"BR",
+				"DEF",
+				"H",
+				"PEN",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Poleaxe (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 4000,
+			"weight": 7,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning, piercing, or slashing",
+			"property": [
+				"2H",
+				"BR",
+				"DEF",
+				"H",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"While wielding a poleaxe, you gain +1 AC and you may add your proficiency bonus to deflect rolls."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Tomahawk (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"T",
+				"AW"
+			],
+			"range": "10/30",
+			"source": "RME"
+		},
+		{
+			"name": "Tomahawk (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"T",
+				"F",
+				"L",
+				"TRP"
+			],
+			"range": "40/120",
+			"source": "RME"
+		},
+		{
+			"name": "Tomahawk (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Axe",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"T",
+				"F",
+				"L",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Before you roll a ranged attack, you can take -5 to the roll. If the attack hits, you add +10 to the attack's damage."
+					]
+				}
+			],
+			"range": "40/120",
+			"source": "RME"
+		},
+		{
+			"name": "Greatclub (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 20,
+			"weight": 8,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Greatclub (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 20,
+			"weight": 8,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"DIS",
+				"PEN",
+				"H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Greatclub (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 20,
+			"weight": 8,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"DEF",
+				"DIS",
+				"PEN",
+				"H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If you are successful in a disarm attempt, the enemy can no longer add proficiency to attacks with that weapon."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Club (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 10,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Club (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 10,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"T"
+			],
+			"range": "10/30",
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Club (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 10,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "B",
+			"property": [
+				"T",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery grants the versatile property, and increases the damage to 1d8 and the two handed damage to 1d10. The thrown range increases to 20 and 40. When you score a critical hit, your enemy is stunned for d4 rounds. At the end of each of its turns, your stunned enemy can attempt a Constitution saving throw, ending the effect on a success."
+					]
+				}
+			],
+			"range": "20/40",
+			"source": "RME"
+		},
+		{
+			"name": "Light Club (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 10,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"F",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Light Club (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 10,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"T",
+				"F",
+				"L"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Light Club (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 10,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"T",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"On hit, you can choose to deal only your Strength modifier in damage but your foe must succeed on a Constitution saving throw or suffer disadvantage to its Strength, Dexterity, and Wisdom Saving Throws and Ability Checks until the end of your next turn."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Bar Mace (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 300,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"DIS"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Bar Mace (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 300,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"DIS"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Bar Mace (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 300,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"DEF",
+				"DIS"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You can choose to deal only your strength modifier in damage, but force your enemy to make a Strength saving throw. On failure, your enemy drops anything it is holding and suffers disadvantage to all attacks. At the end of its turn, it may roll another Constitution saving throw, ending the effect on a success."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Flanged Mace (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 500,
+			"weight": 4,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning and slashing",
+			"source": "RME"
+		},
+		{
+			"name": "Flanged Mace (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 500,
+			"weight": 4,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning and slashing",
+			"property": [
+				"PEN",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Flanged Mace (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 500,
+			"weight": 4,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "bludgeoning and slashing",
+			"property": [
+				"PEN",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Mastery increases the damage to 1d8. Your penetrate affects creatures in any armor. You may also add your strength modifier twice to Penetrate damage totals."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Mallet (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 30,
+			"weight": 3,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Mallet (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 30,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"T",
+				"DIS",
+				"L"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Mallet (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 30,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"T",
+				"DIS",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As a bonus action, you can make a shove attempt which, if successful, deals bludgeoning damage equal to your strength modifier."
+					]
+				}
+			],
+			"range": "30/90",
+			"source": "RME"
+		},
+		{
+			"name": "Morningstar (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Morningstar (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"BR",
+				"PEN",
+				"R"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Morningstar (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d12",
+			"dmg2": "1d4",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"BR",
+				"DBL",
+				"PEN",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As an action, you can try to ruin the protective qualities of your enemy's armor, even if it is Natural Armor. Before you roll an attack, you can take -5 to the roll. On hit, you deal piercing damage equal to your strength modifier, but reduce the enemy's AC by the same amount."
+					]
+					
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Double Ended damage is 1d4"
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Quarterstaff (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 50,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Quarterstaff (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 50,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "1d6",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"DBL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Double Ended damage is 1d6."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Quarterstaff (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bludgeon",
+			"rarity": "none",
+			"value": 50,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "1d8",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"DBL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You gain +1 AC while wielding this weapon. Additionally, you may use Double Ended when making an Opportunity Attack, making two attacks instead of one."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Double Ended damage is 1d8."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Bladed Bow (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 10000,
+			"weight": 5,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"AW",
+				"H",
+				"A"
+			],
+			"range": "100/500",
+			"source": "RME"
+		},
+		{
+			"name": "Bladed Bow (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 10000,
+			"weight": 5,
+			"dmg1": "1d8",
+			"dmg2": "1d6",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"F",
+				"H",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Melee damage is 1d6, ranged damage is 1d8."
+					]
+				}
+			],
+			"range": "120/600",
+			"source": "RME"
+		},
+		{
+			"name": "Bladed Bow (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 10000,
+			"weight": 5,
+			"dmg1": "1d8",
+			"dmg2": "1d6",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"DBL",
+				"F",
+				"H",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As a bonus action, you may choose the Disengage action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Melee damage is 1d6, ranged damage is 1d6."
+					]
+				}
+			],
+			"range": "120/600",
+			"source": "RME"
+		},
+		{
+			"name": "Compound Bow (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 50000,
+			"weight": 3,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"AW",
+				"PEN",
+				"REL",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Reload is reaction"
+					]
+				}
+			],
+			"range": "100/500",
+			"source": "RME"
+		},
+		{
+			"name": "Compound Bow (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 50000,
+			"weight": 3,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"PEN",
+				"REL",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Reload is Object Interaction."
+					]
+				}
+			],
+			"range": "200/800",
+			"source": "RME"
+		},
+		{
+			"name": "Compound Bow (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 50000,
+			"weight": 3,
+			"dmg1": "1d12",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"PEN",
+				"REL",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Before you roll an attack, you can take -5 to the roll. On hit, you deal +10 damage to your primary target, and normal weapon damage to one other target in a straight line from you that intersects your first target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Reload is Part of attack."
+					]
+				}
+			],
+			"range": "200/800",
+			"source": "RME"
+		},
+		{
+			"name": "Greatbow (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 5,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"AW",
+				"H",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"At least STR 13 is required to wield this bow. Additionally, javelins and ballista bolts can be used as ammunition, but with disadvantage on the attack."
+					]
+				}
+			],
+			"range": "100/500",
+			"source": "RME"
+		},
+		{
+			"name": "Greatbow (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 5,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"TRP",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"At least STR 13 is required to wield this bow. Additionally, javelins and ballista bolts can be used as ammunition, but with disadvantage on the attack."
+					]
+				}
+			],
+			"range": "200/800",
+			"source": "RME"
+		},
+		{
+			"name": "Greatbow (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 5,
+			"dmg1": "1d12",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"TRP",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Before you roll an attack, you can take -5 to the roll. On hit, your enemy must succeed on a strength saving throw or be shoved 15ft in a straight line away from you and knocked prone. Large creatures have advantage on this save, while Huge and bigger creatures are immune. All creatures that are flying have disadvantage on this save. When you score a critical hit, this effect is automatically applied."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"At least STR 13 is required to wield this bow. Additionally, javelins and ballista bolts can be used as ammunition, but with disadvantage on the attack."
+					]
+				}
+			],
+			"range": "200/800",
+			"source": "RME"
+		},
+		{
+			"name": "Longbow (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"AW",
+				"H",
+				"A"
+			],
+			"range": "100/500",
+			"source": "RME"
+		},
+		{
+			"name": "Longbow (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"A"
+			],
+			"range": "120/600",
+			"source": "RME"
+		},
+		{
+			"name": "Longbow (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 2,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If you suffer disadvantage for any reason, you can use your reaction to attempt a concentration check against DC10 or half your target's AC, whichever is higher. If you succeed, your disadvantage is negated."
+					]
+				}
+			],
+			"range": "120/600",
+			"source": "RME"
+		},
+		{
+			"name": "Recurve (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 15000,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"A"
+			],
+			"range": "100/500",
+			"source": "RME"
+		},
+		{
+			"name": "Recurve (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 15000,
+			"weight": 2,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"A"
+			],
+			"range": "120/600",
+			"source": "RME"
+		},
+		{
+			"name": "Recurve (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 15000,
+			"weight": 2,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You can loose two arrows at once with the same power. Once on each of your turns when you make a recurve attack, you can make another recurve attack against a different creature that is within 5 feet of the original target and within range."
+					]
+				}
+			],
+			"range": "120/600",
+			"source": "RME"
+		},
+		{
+			"name": "Shortbow (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"A"
+			],
+			"range": "60/240",
+			"source": "RME"
+		},
+		{
+			"name": "Shortbow (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"A"
+			],
+			"range": "80/320",
+			"source": "RME"
+		},
+		{
+			"name": "Shortbow (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You may use your Reaction to make a ranged Opportunity Attack when an enemy enters or exits a 5ft radius around you. You do not have disadvantage to ranged weapon attacks if an enemy is within 5ft of you."
+					]
+				}
+			],
+			"range": "60/240",
+			"source": "RME"
+		},
+		{
+			"name": "Sling (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can use rounded stones or small bits of anything that can fit in the leather cup, though these attacks are made with -1 to the attack roll."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Sling (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"DIS",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can use rounded stones or small bits of anything that can fit in the leather cup, though these attacks are made with -1 to the attack roll."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Sling (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"DIS",
+				"ENT",
+				"L",
+				"TRP",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Before you roll an attack, you can take -5 to the roll. On hit, the target must succeed on a Constitution saving throw or have disadvantage to attacks until the end of its next turn. When you score a critical hit, this effect is automatically applied."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can use rounded stones or small bits of anything that can fit in the leather cup, though these attacks are made with -1 to the attack roll."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Wrist Shot (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 500,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "bludgeoning or slashing",
+			"property": [
+				"2H",
+				"AW",
+				"A"
+			],
+			"range": "40/160",
+			"source": "RME"
+		},
+		{
+			"name": "Wrist Shot (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 500,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "bludgeoning or slashing",
+			"property": [
+				"2H",
+				"DIS",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can use debris or rounded stones as ammunitions, with a -1 to the attack roll."
+					]
+				}
+			],
+			"range": "40/160",
+			"source": "RME"
+		},
+		{
+			"name": "Wrist Shot (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Bow & Sling",
+			"rarity": "none",
+			"value": 500,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning or slashing",
+			"property": [
+				"2H",
+				"DIS",
+				"A"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As a bonus action, you can target a single enemy in range with a distracting shot. Roll an attack that deals only Dexterity or Strength modifier in damage, but if it hits, gives your ally advantage on their next attack roll or ability check against this enemy. If you score a critical hit, your ally gains advantage on all attacks against this enemy until the end of their turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can use debris or rounded stones as ammunitions, with a -1 to the attack roll."
+					]
+				}
+			],
+			"range": "40/160",
+			"source": "RME"
+		},
+		{
+			"name": "Dagger (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 200,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"F",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Dagger (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 200,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Dagger (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 200,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You can use a bonus action to make an attack with a dagger, even if you don't take the attack action."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Kukri (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 300,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"L",
+				"T"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Kukri (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 300,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"L",
+				"T",
+				"TRP"
+			],
+			"range": "40/80",
+			"source": "RME"
+		},
+		{
+			"name": "Kukri (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 300,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DIS",
+				"L",
+				"T",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Reroll any 1 rolled from damage, deflects, or any attachers. Additionally, if your Trip is successful, your target's speed is reduced by 10ft. It may attempt a Constitution saving throw at the end of its turn, ending the effect on success."
+					]
+				}
+			],
+			"range": "40/80",
+			"source": "RME"
+		},
+		{
+			"name": "Rapier (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Rapier (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"F",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Rapier (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"DEF",
+				"F",
+				"L",
+				"LUN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If you are wielding a rapier and nothing in your off hand, you can add d4 to your damage and deflect rolls. If you are wielding a light weapon, instead add +1 to AC."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Saber (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 3500,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Saber (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 3500,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"F",
+				"DEF"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Saber (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 3500,
+			"weight": 2,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"F",
+				"DEF",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If an enemy hits you with a melee weapon attack, you can use your reaction to add your proficiency to your AC, possibly negating a successful hit. This added bonus to AC lasts for that enemy's turn only."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Sai (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 500,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"AW",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Sai (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 500,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"DEF",
+				"F",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Sai (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 500,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"DEF",
+				"DIS",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You gain +1 AC if you are wielding a Sai in your off hand. If an enemy misses you with a melee attack, as a reaction you can make a Disarm attack with advantage."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Shortsword (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"F",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Shortsword (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"F",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Shortsword (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you have advantage on the attack, you can roll damage twice and take the better result, including any attachers."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Sickle (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 100,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Sickle (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 100,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"L",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Sickle (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 100,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"ENT",
+				"L",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Your entangle attacks deal full weapon damage on hit. When you hit with a trip attack, your enemy suffers -10 ft to its speed, regardless of if it succeeds on the save against the trip. It may attempt a Constitution saving throw at the end of its turn, ending the effect on success."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Smallsword (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 3000,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"AW",
+				"F"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Smallsword (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 3000,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"F",
+				"L",
+				"PEN"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Smallsword (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Dueling Blade",
+			"rarity": "none",
+			"value": 3000,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"F",
+				"L",
+				"LUN",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If you have advantage on your attack, you may add a d4 to your attack roll. If you have disadvantage on your attack, you may spend your bonus action to roll your choice of athletics or acrobatics to negate the disadvantage. The DC is equal to your target's AC."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Arquebus (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 75000,
+			"weight": 10,
+			"dmg1": "2d10+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"AW",
+				"H",
+				"FIR",
+				"PEN",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"You Reload as an Attack"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can deploy a bipod as a bonus action to negate the disadvantage for attacking beyond its normal range."
+					]
+				}
+			],
+			"range": "300/900",
+			"source": "RME"
+		},
+		{
+			"name": "Arquebus (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 75000,
+			"weight": 10,
+			"dmg1": "2d10+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"FIR",
+				"PEN",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"You Reload as an Attack"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can deploy a bipod as a bonus action to negate the disadvantage for attacking beyond its normal range."
+					]
+				}
+			],
+			"range": "300/900",
+			"source": "RME"
+		},
+		{
+			"name": "Arquebus (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 75000,
+			"weight": 10,
+			"dmg1": "2d12+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"FIR",
+				"PEN",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As a Bonus Action, you equip the bayonet. The arquebus becomes a pike you wield with master training, but imposes disadvantage to all ranged weapon attacks while the bayonet is equipped."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"You Reload as an Attack"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can deploy a bipod as a bonus action to negate the disadvantage for attacking beyond its normal range."
+					]
+				}
+			],
+			"range": "300/900",
+			"source": "RME"
+		},
+		{
+			"name": "Blunderbuss (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 30000,
+			"weight": 5,
+			"dmg1": "2d8+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"AW",
+				"FIR",
+				"A",
+				"TRP",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Doesn't suffer disadvantage against targets within 5 ft, and instead gains the Penetrate quality. When attacking, you choose a target and another target within 5 ft of it. One shot makes an attack against both. Blunderbuss does not have a long range."
+					]
+				}
+			],
+			"range": "60",
+			"source": "RME"
+		},
+		{
+			"name": "Blunderbuss (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 30000,
+			"weight": 5,
+			"dmg1": "2d8+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"FIR",
+				"A",
+				"TRP",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Doesn't suffer disadvantage against targets within 5 ft, and instead gains the Penetrate quality. When attacking, you choose a target and another target within 5 ft of it. One shot makes an attack against both. Blunderbuss does not have a long range."
+					]
+				}
+			],
+			"range": "60",
+			"source": "RME"
+		},
+		{
+			"name": "Blunderbuss (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 30000,
+			"weight": 5,
+			"dmg1": "2d10+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"FIR",
+				"A",
+				"TRP",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an attack."
+					]
+				},
+				{
+					"type": "entries (Master)",
+					"name": "Mastery Perk",
+					"entries": [
+						"On hit, a target within 15ft must succeed on a Strength saving throw or be pushed back 5ft."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Doesn't suffer disadvantage against targets within 5 ft, and instead gains the Penetrate quality. When attacking, you choose a target and another target within 5 ft of it. One shot makes an attack against both. Blunderbuss does not have a long range."
+					]
+				}
+			],
+			"range": "60",
+			"source": "RME"
+		},
+		{
+			"name": "Firelance (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 20000,
+			"weight": 5,
+			"dmg1": "1d8",
+			"dmg2": "1d8",
+			"dmgType": "fire/piercing",
+			"property": [
+				"2H",
+				"AW",
+				"FIR",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Bonus Action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Ranged fire attack spread out in a 15 ft cone from within 10 ft of you. Can also be used as a lance in melee."
+					]
+				}
+			],
+			"range": "15",
+			"source": "RME"
+		},
+		{
+			"name": "Firelance (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 20000,
+			"weight": 5,
+			"dmg1": "1d12",
+			"dmg2": "1d10",
+			"dmgType": "fire/piercing",
+			"property": [
+				"2H",
+				"FIR",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Bonus Action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Ranged fire attack spread out in a 15 ft cone from within 10 ft of you. Can also be used as a lance in melee."
+					]
+				}
+			],
+			"range": "15",
+			"source": "RME"
+		},
+		{
+			"name": "Firelance (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 20000,
+			"weight": 5,
+			"dmg1": "2d8",
+			"dmg2": "1d12",
+			"dmgType": "fire/piercing",
+			"property": [
+				"2H",
+				"FIR",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Bonus Action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As an action, you sweep the lance around you, forcing all targets within 10ft to succeed on a Dexterity saving throw or suffer 2d4 fire damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Ranged fire attack spread out in a 15 ft cone from within 10 ft of you. Can also be used as a lance in melee."
+					]
+				}
+			],
+			"range": "15",
+			"source": "RME"
+		},
+		{
+			"name": "Hand Cannon (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 25000,
+			"weight": 3,
+			"dmg1": "2d6+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"FIR",
+				"AW",
+				"PEN",
+				"A",
+				"REL",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an attack"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"This weapon doesn't suffer disadvantage when an enemy is within 5 ft."
+					]
+				}
+			],
+			"range": "200/600",
+			"source": "RME"
+		},
+		{
+			"name": "Hand Cannon (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 25000,
+			"weight": 3,
+			"dmg1": "2d6+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"FIR",
+				"PEN",
+				"A",
+				"REL",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an attack"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"This weapon doesn't suffer disadvantage when an enemy is within 5 ft."
+					]
+				}
+			],
+			"range": "200/600",
+			"source": "RME"
+		},
+		{
+			"name": "Hand Cannon (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 25000,
+			"weight": 3,
+			"dmg1": "2d8+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"FIR",
+				"PEN",
+				"A",
+				"REL",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You can make a ranged attack as a bonus action, even if you didn't take the attack action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an attack"
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"This weapon doesn't suffer disadvantage when an enemy is within 5 ft."
+					]
+				}
+			],
+			"range": "200/600",
+			"source": "RME"
+		},
+		{
+			"name": "Pepperbox (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 150000,
+			"weight": 1,
+			"dmg1": "1d4+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"AW",
+				"CCL",
+				"L",
+				"FIR",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an Action, reloading only 2 barrels. Can be Fired 4 times before needing to reload."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"This weapon doesn't suffer disadvantage when an enemy is within 5 ft. An object interaction and free hand must be used to turn the barrels after each attack."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Pepperbox (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 150000,
+			"weight": 1,
+			"dmg1": "1d4+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"L",
+				"FIR",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an Action, reloading only 2 barrels. Can be Fired 4 times before needing to reload."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"This weapon doesn't suffer disadvantage when an enemy is within 5 ft. An object interaction and free hand must be used to turn the barrels after each attack."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Pepperbox (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 150000,
+			"weight": 1,
+			"dmg1": "1d4+5",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"L",
+				"FIR",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an Action, reloading only 2 barrels. Can be Fired 4 times before needing to reload."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You can make a ranged attack as a bonus action, even if you didn't take the attack action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"This weapon doesn't suffer disadvantage when an enemy is within 5 ft. An object interaction and free hand must be used to turn the barrels after each attack."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Firepot (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "F",
+			"property": [
+				"AW",
+				"FIR",
+				"T",
+				"LNC",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"On a hit, the target continues to take 1d6 fire damage at the start of its turn. They can use an action to make a Dexterity saving throw, extinguishing it on a success. Upon a miss, the fire burns a 5ft diameter circle for d6 rounds. Any creature that starts or enters the fire for the first time on its turn must succeed at a Dexterity saving throw or take d6 fire damage."
+					]
+				}
+			],
+			"range": "20/80",
+			"source": "RME"
+		},
+		{
+			"name": "Firepot (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "F",
+			"property": [
+				"FIR",
+				"T",
+				"LNC",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"On a hit, the target continues to take 1d6 fire damage at the start of its turn. They can use an action to make a Dexterity saving throw, extinguishing it on a success. Upon a miss, the fire burns a 5ft diameter circle for d6 rounds. Any creature that starts or enters the fire for the first time on its turn must succeed at a Dexterity saving throw or take d6 fire damage."
+					]
+				}
+			],
+			"range": "20/80",
+			"source": "RME"
+		},
+		{
+			"name": "Firepot (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "F",
+			"property": [
+				"FIR",
+				"T",
+				"LNC",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"On hit, you can choose another target within 5ft of your first. This target takes 1d6 fire damage, but is still on fire like the original target."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"On a hit, the target continues to take 1d6 fire damage at the start of its turn. They can use an action to make a Dexterity saving throw, extinguishing it on a success. Upon a miss, the fire burns a 5ft diameter circle for d6 rounds. Any creature that starts or enters the fire for the first time on its turn must succeed at a Dexterity saving throw or take d6 fire damage."
+					]
+				}
+			],
+			"range": "20/80",
+			"source": "RME"
+		},
+		{
+			"name": "Flash Bomb (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 3500,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "R",
+			"property": [
+				"AW",
+				"T",
+				"FIR",
+				"LNC",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"On a hit, target must succeed on a dexterity saving throw or become blinded until the end of your next turn. Targets with sunlight sensitivity make this roll with disadvantage. Upon a miss, creatures standing where it lands must still succeed on the Dexterity save to avoid being blinded, but take no damage."
+					]
+				}
+			],
+			"range": "20/80",
+			"source": "RME"
+		},
+		{
+			"name": "Flash Bomb (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 3500,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "R",
+			"property": [
+				"T",
+				"FIR",
+				"LNC",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"On a hit, target must succeed on a dexterity saving throw or become blinded until the end of your next turn. Targets with sunlight sensitivity make this roll with disadvantage. Upon a miss, creatures standing where it lands must still succeed on the Dexterity save to avoid being blinded, but take no damage."
+					]
+				}
+			],
+			"range": "20/80",
+			"source": "RME"
+		},
+		{
+			"name": "Flash Bomb (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 3500,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "R",
+			"property": [
+				"T",
+				"FIR",
+				"LNC",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If an enemy is within 5ft, you do not suffer disadvantage to attack. You can choose to deal no damage, imposing disadvantage on the Dexterity save."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"On a hit, target must succeed on a dexterity saving throw or become blinded until the end of your next turn. Targets with sunlight sensitivity make this roll with disadvantage. Upon a miss, creatures standing where it lands must still succeed on the Dexterity save to avoid being blinded, but take no damage."
+					]
+				}
+			],
+			"range": "20/80",
+			"source": "RME"
+		},
+		{
+			"name": "Powder Charge (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 15000,
+			"weight": 2,
+			"dmg1": "3d6",
+			"dmg2": "",
+			"dmgType": "piercing and thunder",
+			"property": [
+				"AW",
+				"T",
+				"LNC",
+				"PEN",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"On a hit, the target takes d6 thunder and 2d6 piercing. All other targets within 5ft of impact, hit or miss, must succeed on a Dexterity saving throw or take 2d6 piercing damage. The sound it creates can be heard up to 600ft away."
+					]
+				}
+			],
+			"range": "20/80",
+			"source": "RME"
+		},
+		{
+			"name": "Powder Charge (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 15000,
+			"weight": 2,
+			"dmg1": "3d6",
+			"dmg2": "",
+			"dmgType": "piercing and thunder",
+			"property": [
+				"T",
+				"LNC",
+				"PEN",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"On a hit, the target takes d6 thunder and 2d6 piercing. All other targets within 5ft of impact, hit or miss, must succeed on a Dexterity saving throw or take 2d6 piercing damage. The sound it creates can be heard up to 600ft away."
+					]
+				}
+			],
+			"range": "20/80",
+			"source": "RME"
+		},
+		{
+			"name": "Powder Charge (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Firearm",
+			"rarity": "none",
+			"value": 15000,
+			"weight": 2,
+			"dmg1": "3d6",
+			"dmg2": "",
+			"dmgType": "piercing and thunder",
+			"property": [
+				"T",
+				"LNC",
+				"PEN",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You can choose to deal only 1d6 damage, but force all affected targets to succeed on a Strength saving throw or fall prone."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"On a hit, the target takes d6 thunder and 2d6 piercing. All other targets within 5ft of impact, hit or miss, must succeed on a Dexterity saving throw or take 2d6 piercing damage. The sound it creates can be heard up to 600ft away."
+					]
+				}
+			],
+			"range": "20/80",
+			"source": "RME"
+		},
+		{
+			"name": "Bastard Sword (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 4000,
+			"weight": 4,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"AW",
+				"H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Bastard Sword (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 4000,
+			"weight": 4,
+			"dmg1": "1d12",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Bastard Sword (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 4000,
+			"weight": 4,
+			"dmg1": "1d12",
+			"dmg2": "2d6",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"V",
+				"H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Your Critical hit range is 19-20, unless it is 18-20. Against category size Large and larger enemies, your damage is 2d8(2d10) instead of d12(2d6)."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Broadsword (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Broadsword (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 3,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"PEN"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Broadsword (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 3,
+			"dmg1": "3d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Before you roll an attack, you can take -5 to the roll. On hit, triple your Strength modifier to damage. If you score a critical hit or reduce an enemy to 0hp at any time, this effect automatically applies and you can make an additional attack as part of the same action. This can continue as long as the criteria is met."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Greatsword (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 5,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"AW",
+				"H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Greatsword (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 5,
+			"dmg1": "2d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Greatsword (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 5,
+			"dmg1": "2d10",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Against category size Large and larger enemies, your damage is 2d12, instead of 2d10."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Katana (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Katana (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"F",
+				"V",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Katana (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"F",
+				"V",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"While wielding this weapon with two hands, your deflect dice becomes 2d10. With one hand, you may add your proficiency bonus to your deflect rolls."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Longsword (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"DIS",
+				"2H",
+				"AW"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Your Critical hit range is 18-20."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Longsword (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"DIS",
+				"V"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Longsword (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d10",
+			"dmg2": "1d12",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"DIS",
+				"V",
+				"F"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Your Critical hit range is 18-20."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Montante (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 5,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"H",
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Montante (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 5,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"H",
+				"R"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Montante (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 5,
+			"dmg1": "3d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"H",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You have +1 AC while wielding this weapon, and you negate any flanking bonus any enemy might have for flanking you or having the enemy's ally near you, such as pack tactics or sneak attack."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Scimitar (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2.5,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Scimitar (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2.5,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Scimitar (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 2.5,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"F",
+				"DEF",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you choose to deflect, you may roll twice and take the better result. Additionally, if you travel at least 20ft before you make an attack, your weapon deals an additional d8 slashing damage for one attack. To deal this extra damage again, you must travel another 20 feet in a straight line, choosing the same or different target."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Short Glaive (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 4500,
+			"weight": 4,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Short Glaive (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 4500,
+			"weight": 4,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"F",
+				"LUN"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Short Glaive (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Combat Blade",
+			"rarity": "none",
+			"value": 4500,
+			"weight": 4,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"BR",
+				"F",
+				"LUN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If an enemy misses you with a melee attack, you can use your reaction to make a melee attack against that enemy, provided you can see it."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Blowgun (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d1",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"A",
+				"AW",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"If you make an attack while hidden and miss, your location is not revealed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an Object Interaction."
+					]
+				}
+			],
+			"range": "25/40",
+			"source": "RME"
+		},
+		{
+			"name": "Blowgun (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d2",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"A",
+				"L",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"If you make an attack while hidden and miss, your location is not revealed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Part of Attack."
+					]
+				}
+			],
+			"range": "25/100",
+			"source": "RME"
+		},
+		{
+			"name": "Blowgun (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d2",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"A",
+				"L",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You can load two darts and launch them both at the same target. Only 1 dart gains your ability modifier to damage, but each dart can deliver a poison or other payload."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"If you make an attack while hidden and miss, your location is not revealed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Part of Attack."
+					]
+				}
+			],
+			"range": "25/100",
+			"source": "RME"
+		},
+		{
+			"name": "Hand Crossbow (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 2,
+			"dmg1": "1d6+1",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"L",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Reaction."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Hand Crossbow (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 2,
+			"dmg1": "1d6+1",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"L",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Free Object Interaction."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Hand Crossbow (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 2,
+			"dmg1": "1d6+1",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"L",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Can be reloaded with one hand. As a bonus action, you can make an attack with this weapon, even if you haven't taken the attack action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Part of Attack."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Crossbow (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 8,
+			"dmg1": "1d10+3",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"A",
+				"REL",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an Action."
+					]
+				}
+			],
+			"range": "50/200",
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Crossbow (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 8,
+			"dmg1": "1d10+3",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"A",
+				"REL",
+				"TRP",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an Attack."
+					]
+				}
+			],
+			"range": "100/400",
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Crossbow (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 8,
+			"dmg1": "1d10+3",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"A",
+				"REL",
+				"TRP",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Before you roll an attack, you can take -5 to the roll. On hit, your enemy must succeed on a Strength saving throw or be knocked prone. Category Large creatures gain advantage on this save and larger creatures are immune. On a critical hit, this effect is automatically applied."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Bonus Action."
+					]
+				}
+			],
+			"range": "100/400",
+			"source": "RME"
+		},
+		{
+			"name": "Hidden Crossbow (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 15000,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"AFX",
+				"AW",
+				"L",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an Attack. Has to be reloaded by the hand that does not have this weapon equiped."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"You do not suffer Disadvantage with your attack roll when a target is within 5ft of you."
+					]
+				}
+			],
+			"range": "10/30",
+			"source": "RME"
+		},
+		{
+			"name": "Hidden Crossbow (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 15000,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"AFX",
+				"L",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Bonus Action. Has to be reloaded by the hand that does not have this weapon equiped."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"You do not suffer Disadvantage with your attack roll when a target is within 5ft of you."
+					]
+				}
+			],
+			"range": "20/40",
+			"source": "RME"
+		},
+		{
+			"name": "Hidden Crossbow (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 15000,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"CCL",
+				"AFX",
+				"L",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If an enemy misses you with an attack, you can use your reaction to make a ranged attack against it."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Reaction. Has to be reloaded by the hand that does not have this weapon equiped."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"You do not suffer Disadvantage with your attack roll when a target is within 5ft of you."
+					]
+				}
+			],
+			"range": "30/60",
+			"source": "RME"
+		},
+		{
+			"name": "Light Crossbow (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 5,
+			"dmg1": "1d8+2",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an Attack."
+					]
+				}
+			],
+			"range": "40/200",
+			"source": "RME"
+		},
+		{
+			"name": "Light Crossbow (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 5,
+			"dmg1": "1d8+2",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Reaction."
+					]
+				}
+			],
+			"range": "80/320",
+			"source": "RME"
+		},
+		{
+			"name": "Light Crossbow (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 5,
+			"dmg1": "1d8+2",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"A",
+				"REL"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You may use your Reaction to make a ranged Opportunity Attack when an enemy enters or exits a 10ft radius around you."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as a Free Object Interaction."
+					]
+				}
+			],
+			"range": "80/320",
+			"source": "RME"
+		},
+		{
+			"name": "Mauler (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 10000,
+			"weight": 6,
+			"dmg1": "3d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"AW",
+				"A",
+				"REL",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Because the bolts spread over distance, the damage is only 1d4 on medium or smaller size targets outside normal range, as only the top bolt is on target. All three bolts hit Large and larger creatures at any range."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an action."
+					]
+				}
+			],
+			"range": "20/50",
+			"source": "RME"
+		},
+		{
+			"name": "Mauler (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 10000,
+			"weight": 6,
+			"dmg1": "3d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"A",
+				"REL",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Because the bolts spread over distance, the damage is only 1d4 on medium or smaller size targets outside normal range, as only the top bolt is on target. All three bolts hit Large and larger creatures at any range."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an action."
+					]
+				}
+			],
+			"range": "30/60",
+			"source": "RME"
+		},
+		{
+			"name": "Mauler (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 10000,
+			"weight": 6,
+			"dmg1": "3d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"A",
+				"REL",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Master increases the range to 40/80, and makes the reload a bonus action. When you score a critical within 40ft, roll 6d4 for your bonus critical damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Because the bolts spread over distance, the damage is only 1d4 on medium or smaller size targets outside normal range, as only the top bolt is on target. All three bolts hit Large and larger creatures at any range."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an action."
+					]
+				}
+			],
+			"range": "40/80",
+			"source": "RME"
+		},
+		{
+			"name": "Portable Ballista (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 150000,
+			"weight": 15,
+			"dmg1": "1d12+4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"AW",
+				"H",
+				"ENT",
+				"PEN",
+				"A",
+				"REL",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an Action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"A deployable stand can be purchased for 150g. As an action, the weapon is mounted to the stand and can no longer be moved until it is unmounted with another Action. While mounted, it can be reloaded as an object interaction."
+					]
+				}
+			],
+			"range": "150/400",
+			"source": "RME"
+		},
+		{
+			"name": "Portable Ballista (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 150000,
+			"weight": 15,
+			"dmg1": "1d12+4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"ENT",
+				"PEN",
+				"A",
+				"REL",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an Action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"A deployable stand can be purchased for 150g. As an action, the weapon is mounted to the stand and can no longer be moved until it is unmounted with another Action. While mounted, it can be reloaded as an object interaction."
+					]
+				}
+			],
+			"range": "150/600",
+			"source": "RME"
+		},
+		{
+			"name": "Portable Ballista (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 150000,
+			"weight": 15,
+			"dmg1": "1d12+4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"H",
+				"ENT",
+				"PEN",
+				"A",
+				"REL",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"The crossbow mastery two-target range is 50ft. Additionally, your Entangle attacks add the restrained condition if successful, as you pin your target to the ground or surrounding terrain features."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"Reload as an Action."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"A deployable stand can be purchased for 150g. As an action, the weapon is mounted to the stand and can no longer be moved until it is unmounted with another Action. While mounted, it can be reloaded as an object interaction."
+					]
+				}
+			],
+			"range": "150/600",
+			"source": "RME"
+		},
+		{
+			"name": "Spinner (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 10000,
+			"weight": 2,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DIS"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"The Spinner holds 10 blades and reloading is part of the attack, though when depleted, it takes an Action to reload with 10 more."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Range can be measured to an obstacle, then your target. If less than normal range, ignore any cover the creature has."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Spinner (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 10000,
+			"weight": 2,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DIS",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"The Spinner holds 10 blades and reloading is part of the attack, though when depleted, it takes an Action to reload with 10 more."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Range can be measured to an obstacle, then your target. If less than normal range, ignore any cover the creature has."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Spinner (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Crossbow",
+			"rarity": "none",
+			"value": 10000,
+			"weight": 2,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DIS",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As an action, you roll a single attack with a -5 penalty, but may hit your choice of all targets within a 5ft radius in your normal range."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reload",
+					"entries": [
+						"The Spinner holds 10 blades and reloading is part of the attack, though when depleted, it takes an Action to reload with 10 more."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Range can be measured to an obstacle, then your target. If less than normal range, ignore any cover the creature has."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Double Flail (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 7,
+			"dmg1": "2d4",
+			"dmg2": "",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"2H",
+				"H",
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Double Flail (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 7,
+			"dmg1": "2d4",
+			"dmg2": "2d6",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"H",
+				"V"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Double Flail (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 20,
+			"weight": 7,
+			"dmg1": "2d6",
+			"dmg2": "2d8",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"H",
+				"V",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you suffer disadvantage but one dice would have hit, you deal 1 of the weapon's damage dice plus your strength modifier, even though this still counts as a miss. If you have advantage and both dice hit, add your Strength modifier twice to the damage total."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Light Flail (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 800,
+			"weight": 3,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"TRP",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Light Flail (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 800,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"DIS",
+				"TRP",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Light Flail (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 800,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"DIS",
+				"TRP",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If you miss with an attack, you may use your reaction to make one extra attack as part of the same action."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Flail (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 5,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"H",
+				"2H",
+				"PEN",
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Flail (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 5,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"H",
+				"PEN",
+				"V",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Heavy Flail (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 5,
+			"dmg1": "1d10",
+			"dmg2": "1d12",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"H",
+				"DIS",
+				"PEN",
+				"V",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If your enemy succeeds on their save against your disarm, entangle, or trip attack, you can make an attack as part of the same action."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Pole Flail (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 10,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"2H",
+				"H",
+				"R",
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Pole Flail (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 10,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"2H",
+				"H",
+				"R",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Pole Flail (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 10,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "bludgeoning and piercing",
+			"property": [
+				"2H",
+				"ENT",
+				"H",
+				"R",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Before you roll an attack, you can take -5 to the roll. On hit, your enemy cannot use reactions until the start of your next turn."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Meteor Hammer (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 500,
+			"weight": 3,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"AW",
+				"LUN",
+				"R",
+				"F"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Meteor Hammer (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 500,
+			"weight": 3,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"ENT",
+				"LUN",
+				"R",
+				"F"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Meteor Hammer (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 500,
+			"weight": 3,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"DIS",
+				"ENT",
+				"LUN",
+				"R",
+				"TRP",
+				"F"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As an action, you begin twirling the hammer around you in a 10ft radius. Until the start of your next turn, any creature of your choice which starts its turn or which enters this space must succeed on a Dexterity save or take d4 plus your choice of strength or dexterity modifier in bludgeoning damage."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Nunchaku (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"F"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Nunchaku (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"ENT",
+				"F",
+				"TRP",
+				"L"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Nunchaku (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"CCL",
+				"DBL",
+				"ENT",
+				"F",
+				"TRP",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You can treat this weapon as if it is Double Ended even while wielding it in one hand. If you dual wield nunchaku, you may make two Double Ended attacks with the same Bonus Action. If you wield only one, you gain Disarm."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Whip (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 200,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"AW",
+				"F"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"You can use this weapon to grasp unattended small objects, or any reasonable handhold within range and if possible, you can pull the object to you."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Whip (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 200,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DIS",
+				"F",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"This weapon has an extended reach, being able to hit targets up to 15 ft away. You can use this weapon to grasp unattended small objects, or any reasonable handhold within range and if possible, you can pull the object to you."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Whip (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 200,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"DIS",
+				"ENT",
+				"F",
+				"L",
+				"R",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you disarm any creature, you choose to place the item anywhere in your reach, or use your reaction to catch it. An item in your reach that can be grabbed with the whip can be placed anywhere else in your reach."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"This weapon has an extended reach, being able to hit targets up to 15 ft away. You can use this weapon to grasp unattended small objects, or any reasonable handhold within range and if possible, you can pull the object to you."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Chain Sword [Sword] (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 25000,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "1d8",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"AW",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can change to the whip form as a bonus action."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Chain Sword [Sword] (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 25000,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"F",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can change to the whip form as a bonus action."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Chain Sword [Sword] (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 25000,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"F",
+				"LUN",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You may change between weapon forms freely, which is how you get the lunge property."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Chain Sword [Whip] (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 25000,
+			"weight": 3,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"AW",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can change to the sword form as a bonus action."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Chain Sword [Whip] (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 25000,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"ENT",
+				"F",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Can change to the sword form as a bonus action."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Chain Sword [Whip] (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Flail & Whip",
+			"rarity": "none",
+			"value": 25000,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"ENT",
+				"F",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You may change between weapon forms freely. While an enemy is entangled, you can still attack your entangled enemy, or any target within 5ft of it."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Light Hammer (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 200,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"T",
+				"AW",
+				"L"
+			],
+			"range": "10/40",
+			"source": "RME"
+		},
+		{
+			"name": "Light Hammer (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 200,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"T",
+				"L"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Light Hammer (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 200,
+			"weight": 2,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"T",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Before you roll an attack, you can take -5 to the roll. On hit, your enemy must succeed on a Constitution saving throw or suffer disadvantage to all strength and dexterity saving throws until the start of its next turn. On a critical hit, this effect is applied automatically."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "War Hammer (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"AW",
+				"PEN"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "War Hammer (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "B",
+			"property": [
+				"V",
+				"PEN"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "War Hammer (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d10",
+			"dmg2": "1d12",
+			"dmgType": "B",
+			"property": [
+				"V",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You ignore resistance to non-magical bludgeoning damage. Before you roll an attack, you can take -5 to the roll. On hit, you deal an extra +10 damage."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Maul (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 12,
+			"dmg1": "1d12",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"H",
+				"PEN",
+				"AW"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"A maul always has advantage on attack rolls to damage objects."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Maul (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 12,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"H",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"A maul always has advantage on attack rolls to damage objects."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Maul (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 12,
+			"dmg1": "2d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"H",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If you move at least 10 ft before making an attack, you gain +5 bonus to the attack's damage roll and your shove attacks knock foes 10 ft and prone instead of 5 ft or prone."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"A maul always has advantage on attack rolls to damage objects."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Lucerne (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 8,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning or piercing",
+			"property": [
+				"BR",
+				"H",
+				"PEN",
+				"R",
+				"AW",
+				"2H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Lucerne (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 8,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning or piercing",
+			"property": [
+				"BR",
+				"H",
+				"PEN",
+				"R",
+				"TRP",
+				"2H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Lucerne (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 8,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning or piercing",
+			"property": [
+				"BR",
+				"H",
+				"PEN",
+				"R",
+				"TRP",
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As an action, you roll an attack to destroy the shield or armor worn by the enemy. On a hit, your enemy must succeed on a Dexterity saving throw or their AC is reduced by 2. If they succeed on this save, they instead take damage."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Light Pick (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 200,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"F",
+				"L",
+				"PEN",
+				"AW"
+			],
+			"range": "10/40",
+			"source": "RME"
+		},
+		{
+			"name": "Light Pick (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 200,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"F",
+				"L",
+				"PEN",
+				"TRP"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Light Pick (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 200,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"F",
+				"L",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You have +2 to attacks against an enemy wearing any armor. If you are able to roll 5 higher than your enemy's AC, you can add your ability modifier to damage twice."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Wall Pick (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 300,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"PEN",
+				"AW"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"A wall pick gives you advantage on climb checks and you can climb onto creatures any size category bigger than you."
+					]
+				}
+			],
+			"range": "10/40",
+			"source": "RME"
+		},
+		{
+			"name": "Wall Pick (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 300,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"ENT",
+				"L",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"A wall pick gives you advantage on climb checks and you can climb onto creatures any size category bigger than you."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Wall Pick (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 300,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"DIS",
+				"ENT",
+				"L",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You have advantage on Entangle attacks, and if both dice would have hit, your enemy has the restrained and grappled condition."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"A wall pick gives you advantage on climb checks and you can climb onto creatures any size category bigger than you."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "War Pick (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"PEN",
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "War Pick (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 2,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"PEN",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "War Pick (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 2,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Before you roll an attack, you can take -5 to the roll. On hit, your target takes piercing damage equal to your strength modifier at the start of each of their turns. A creature can attempt a Constitution saving throw at the end of their turn, ending the effect on a success. If the creature receives any healing, this also ends the effect. This effect can be applied multiple times, and is up to your DM if your target is capable of bleeding in order for this effect to work."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Stiletto (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"F",
+				"L",
+				"PEN"
+			],
+			"range": "10/40",
+			"source": "RME"
+		},
+		{
+			"name": "Stiletto (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"CCL",
+				"ENT",
+				"F",
+				"L",
+				"PEN"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Stiletto (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Hammer & Pick",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"CCL",
+				"ENT",
+				"F",
+				"L",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You have +2 to attack any creature wearing medium or heavy armor. When you successfully Entangle, as a Bonus action you can attempt a shove."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Glaive (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 5,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"BR",
+				"AW",
+				"F",
+				"R",
+				"H",
+				"2H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Glaive (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 5,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"BR",
+				"F",
+				"R",
+				"H",
+				"2H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Glaive (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 2000,
+			"weight": 5,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"BR",
+				"F",
+				"R",
+				"H",
+				"LUN",
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Against creatures of category size Large and larger, your damage is 3d6 instead of 2d6. Your Double Ended Attack is still d4."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Guisarme (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 5,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"BR",
+				"R",
+				"TRP",
+				"H",
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Using this weapon, you can make a Trip Attack against a target who is mounted."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Guisarme (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 5,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"BR",
+				"R",
+				"TRP",
+				"H",
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Using this weapon, you can make a Trip Attack against a target who is mounted."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Guisarme (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 5,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"BR",
+				"R",
+				"TRP",
+				"H",
+				"2H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You have advantage on trip attacks made to targets at 10ft away from you, and if you succeed against a mounted enemy, it is automatically pulled from its mount to a prone position. When you successfully hit with a trip attack, its speed is reduced by 10ft until the end of its next turn, regardless of whether it succeeded on the save."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Using this weapon, you can make a Trip Attack against a target who is mounted."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Lajatang (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 8,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"AW",
+				"BR",
+				"R"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Lajatang (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 8,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"DBL",
+				"BR",
+				"F",
+				"R"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Lajatang (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 7500,
+			"weight": 8,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"DBL",
+				"BR",
+				"F",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You negate any effect an enemy gains by flanking or surrounding you, including bonuses such as Pack Tactics or Sneak Attack. In addition, you make two attacks with Double Ended instead of the usual one, however your second attack from Double Ended must choose a different target than the first.."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Partisan (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 6,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"AW",
+				"BR",
+				"R",
+				"H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Partisan (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 6,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"BR",
+				"R",
+				"H"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Partisan (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 6,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"BR",
+				"R",
+				"LUN",
+				"H"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You have +2AC against melee attacks from enemies that are 10ft away from you. When an enemy targets an ally within 5ft of you, you can use your reaction to impose disadvantage to that attack."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "War Scythe (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 500,
+			"weight": 8,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"H",
+				"PEN",
+				"R",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "War Scythe (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 500,
+			"weight": 8,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"H",
+				"ENT",
+				"PEN",
+				"R",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "War Scythe (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Polearm",
+			"rarity": "none",
+			"value": 500,
+			"weight": 8,
+			"dmg1": "2d6",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"H",
+				"ENT",
+				"PEN",
+				"R",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you successfully trip an enemy, that enemy takes full weapon damage, and has its speed reduced to just 10ft. At the end of its turn, the enemy can attempt a Constitution saving throw, ending the effect on a success."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Godendag (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1200,
+			"weight": 5,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning or slashing",
+			"property": [
+				"2H",
+				"T",
+				"PEN",
+				"AW"
+			],
+			"range": "10/40",
+			"source": "RME"
+		},
+		{
+			"name": "Godendag (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1200,
+			"weight": 5,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning or slashing",
+			"property": [
+				"2H",
+				"T",
+				"PEN",
+				"TRP"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Godendag (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1200,
+			"weight": 5,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning or slashing",
+			"property": [
+				"2H",
+				"DIS",
+				"T",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Before you roll an attack, you can take -5 to the roll. On hit, the enemy must succeed on a Constitution saving throw or be stunned until the start of its next turn. On a critical hit, this effect is applied without the save."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Harpoon (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"T",
+				"AW",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Impale",
+					"entries": [
+						"Each hit, your enemy must succeed on a strength saving throw or be impaled, while a critical hit always impales."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Harpoon Retrieval",
+					"entries": [
+						"As a Bonus action, you drag an impaled enemy toward you a number of feet equal to your strength score if you win an Athletics contest. On the enemy's turn, it must win an Athletics contest to move away from you at half speed. While impaled, your enemy takes damage from your weapon at the start of its turn. You may also let go of the rope at any time.",
+						"If you impale an enemy at least two size categories larger than you, you simply move with your target and climb the rope as normal. Impaled enemies can spend an action to repeat the save to pull the weapon free. You can retrieve a free harpoon by its rope as a Bonus action."
+					]
+				}
+			],
+			"range": "10/40",
+			"source": "RME"
+		},
+		{
+			"name": "Harpoon (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"T",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Impale",
+					"entries": [
+						"Each hit, your enemy must succeed on a strength saving throw or be impaled, while a critical hit always impales."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Harpoon Retrieval",
+					"entries": [
+						"As a Bonus action, you drag an impaled enemy toward you a number of feet equal to your strength score if you win an Athletics contest. On the enemy's turn, it must win an Athletics contest to move away from you at half speed. While impaled, your enemy takes damage from your weapon at the start of its turn. You may also let go of the rope at any time.",
+						"If you impale an enemy at least two size categories larger than you, you simply move with your target and climb the rope as normal. Impaled enemies can spend an action to repeat the save to pull the weapon free. You can retrieve a free harpoon by its rope as a Bonus action."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Harpoon (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"ENT",
+				"PEN",
+				"T",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"You drag an enemy toward you a number of feet equal to twice your strength score, and your target suffers disadvantage to Strength saving throws."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Impale",
+					"entries": [
+						"Each hit, your enemy must succeed on a strength saving throw or be impaled, while a critical hit always impales."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Harpoon Retrieval",
+					"entries": [
+						"As a Bonus action, you drag an impaled enemy toward you a number of feet equal to your strength score if you win an Athletics contest. On the enemy's turn, it must win an Athletics contest to move away from you at half speed. While impaled, your enemy takes damage from your weapon at the start of its turn. You may also let go of the rope at any time.",
+						"If you impale an enemy at least two size categories larger than you, you simply move with your target and climb the rope as normal. Impaled enemies can spend an action to repeat the save to pull the weapon free. You can retrieve a free harpoon by its rope as a Bonus action."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Javelin (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"L",
+				"PEN"
+			],
+			"range": "10/40",
+			"source": "RME"
+		},
+		{
+			"name": "Javelin (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"L",
+				"PEN"
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Javelin (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 100,
+			"weight": 1,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"L",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Before you roll an attack, you can take -5 to the roll. With this penalty or any critical hit, your enemy suffers a -2AC penalty if they have a shield or heavy armor, until they use an Action to succeed on a Strength saving throw. A javelin is destroyed when this ability is used."
+					]
+				}
+			],
+			"range": "30/240",
+			"source": "RME"
+		},
+		{
+			"name": "Lance (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 6,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"AW",
+				"BR",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Disadvantage on attacks against targets within 5 ft while on foot, and gains penetrate when mounted."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Lance (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 6,
+			"dmg1": "1d12",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"BR",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Disadvantage on attacks against targets within 5 ft while on foot, and gains penetrate when mounted."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Lance (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 6,
+			"dmg1": "2d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"BR",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"While mounted, each attack is also a shove attempt, and you have advantage in the contest."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Disadvantage on attacks against targets within 5 ft while on foot, and gains penetrate when mounted."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "War Spear (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "War Spear (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "1d10",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"DBL",
+				"F",
+				"PEN",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Double Ended Damage",
+					"entries": [
+						"Double Ended damage is 1d4."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "War Spear (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 2500,
+			"weight": 3,
+			"dmg1": "1d10",
+			"dmg2": "1d12",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"DBL",
+				"F",
+				"PEN",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If you use this weapon one handed, you can use Double Ended as if you were using it with two. If you use this weapon two handed, you deal an additional d6 damage each time you hit with the primary attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Double Ended Damage",
+					"entries": [
+						"Double Ended damage is 1d4."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Pike (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 500,
+			"weight": 8,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"BR",
+				"H",
+				"R"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Pike (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 500,
+			"weight": 8,
+			"dmg1": "1d12",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"BR",
+				"H",
+				"LUN",
+				"R"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Pike (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 500,
+			"weight": 8,
+			"dmg1": "2d8",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"2H",
+				"BR",
+				"H",
+				"LUN",
+				"R"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"No creature gives half cover to your target while at reach. Your allies still provide half cover to you."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Ravenbeak (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"BR",
+				"H",
+				"R",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Ravenbeak (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"BR",
+				"ENT",
+				"H",
+				"LUN",
+				"R",
+				"TRP"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Ravenbeak (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1500,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "piercing or slashing",
+			"property": [
+				"2H",
+				"BR",
+				"DIS",
+				"ENT",
+				"H",
+				"LUN",
+				"R",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"While at reach, you ignore any shield AC. Additionally, when your enemy fails a saving throw against your disarm attack, it suffers this weapon's damage in addition to being disarmed."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Trident (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 3,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"AW"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Trident (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 3,
+			"dmg1": "1d8",
+			"dmg2": "2d4",
+			"dmgType": "P",
+			"property": [
+				"DIS",
+				"T",
+				"V"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Trident (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Spear",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 3,
+			"dmg1": "1d12",
+			"dmg2": "3d4",
+			"dmgType": "P",
+			"property": [
+				"DEF",
+				"DIS",
+				"T",
+				"V"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If you hit with a Thrown attack, the enemy must succeed on a Strength saving throw or their speed is reduced by half and they cannot use reactions. At the start of their next turn, the enemy can attempt another Strength saving throw, removing the trident and ending the effect on a success. Additionally, an enemy misses you with a melee weapon attack, you may use your reaction to attempt a disarm attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Deflect Dice",
+					"entries": [
+						"Deflect with this weapon uses it's Versatile Damage(3d4)."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Bolas (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 100,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"AW",
+				"T"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"A normal bolas has an 15AC, 2HP and is immune to bludgeoning damage, but a more sturdy version may exist. When your enemy succeeds at a save to escape or reduces the bolas to 0hp, it is destroyed."
+					]
+				}
+			],
+			"range": "10/30",
+			"source": "RME"
+		},
+		{
+			"name": "Bolas (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 100,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"ENT",
+				"T"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"A normal bolas has an 15AC, 2HP and is immune to bludgeoning damage, but a more sturdy version may exist. When your enemy succeeds at a save to escape or reduces the bolas to 0hp, it is destroyed."
+					]
+				}
+			],
+			"range": "20/30",
+			"source": "RME"
+		},
+		{
+			"name": "Bolas (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 100,
+			"weight": 2,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"ENT",
+				"T",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"On hit, your enemy must succeed on a Strength saving throw or become prone and grappled."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Info",
+					"entries": [
+						"A normal bolas has an 15AC, 2HP and is immune to bludgeoning damage, but a more sturdy version may exist. When your enemy succeeds at a save to escape or reduces the bolas to 0hp, it is destroyed."
+					]
+				}
+			],
+			"range": "40/60",
+			"source": "RME"
+		},
+		{
+			"name": "Boomerang (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 300,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning or slashing",
+			"property": [
+				"T",
+				"AW",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Flight",
+					"entries": [
+						"You can trace any path to your target as long as that path is not longer than your long range.",
+						"Remember that if you can't see your target, you suffer disadvantage to attack.",
+						"After the attack, it retraces the same path back to you, avoiding targets until you catch it."
+					]
+				}
+			],
+			"range": "30/120",
+			"source": "RME"
+		},
+		{
+			"name": "Boomerang (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 300,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning or slashing",
+			"property": [
+				"T",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Flight",
+					"entries": [
+						"You can trace any path to your target as long as that path is not longer than your long range.",
+						"Remember that if you can't see your target, you suffer disadvantage to attack.",
+						"After the attack, it retraces the same path back to you, avoiding targets until you catch it."
+					]
+				}
+			],
+			"range": "40/120",
+			"source": "RME"
+		},
+		{
+			"name": "Boomerang (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 300,
+			"weight": 1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "bludgeoning or slashing",
+			"property": [
+				"T",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"Once on your turn, you can choose two targets within 40ft to attack with the same attack."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Flight",
+					"entries": [
+						"You can trace any path to your target as long as that path is not longer than your long range.",
+						"Remember that if you can't see your target, you suffer disadvantage to attack.",
+						"After the attack, it retraces the same path back to you, avoiding targets until you catch it."
+					]
+				}
+			],
+			"range": "80/240",
+			"source": "RME"
+		},
+		{
+			"name": "Chakram (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0.1,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"T",
+				"AW",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Flight",
+					"entries": [
+						"You can trace any path to your target as long as that path is not longer than your long range.",
+						"Remember that if you can't see your target, you suffer disadvantage to attack.",
+						"After the attack, it retraces the same path back to you, avoiding targets until you catch it."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Chakram (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0.1,
+			"dmg1": "1d6",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"T",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Flight",
+					"entries": [
+						"You can trace any path to your target as long as that path is not longer than your long range.",
+						"Remember that if you can't see your target, you suffer disadvantage to attack.",
+						"After the attack, it retraces the same path back to you, avoiding targets until you catch it."
+					]
+				}
+			],
+			"range": "40/120",
+			"source": "RME"
+		},
+		{
+			"name": "Chakram (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0.1,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "S",
+			"property": [
+				"T",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If a creature misses you with a ranged or melee attack, you can use your reaction to make a ranged or melee attack against that creature."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Flight",
+					"entries": [
+						"You can trace any path to your target as long as that path is not longer than your long range.",
+						"Remember that if you can't see your target, you suffer disadvantage to attack.",
+						"After the attack, it retraces the same path back to you, avoiding targets until you catch it."
+					]
+				}
+			],
+			"range": "80/500",
+			"source": "RME"
+		},
+		{
+			"name": "Dart (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L",
+				"PEN"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Dart (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L",
+				"PEN"
+			],
+			"range": "30/60",
+			"source": "RME"
+		},
+		{
+			"name": "Dart (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L",
+				"PEN"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"When you land a hit, you can choose to deal no damage and instead pin the enemy to an adjacent wall or obstacle such as a tree or boulder. Your enemy is restrained, the escape DC is your weapon DC."
+					]
+				}
+			],
+			"range": "60/120",
+			"source": "RME"
+		},
+		{
+			"name": "Net (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 100,
+			"weight": 3,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"2H",
+				"T",
+				"AW"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"A large or smaller creature hit by a net suffers the restrained condition until freed. Dealing 5 slashing damage to the net (AC10) frees the creature without harming it, ending the effect and destroying the net.",
+						"A normal net cannot be used against category size Huge or larger enemies, but larger nets may be able to be crafted, so long as a means to deploy them exists, as a net this big cannot be wielded by Medium or smaller creatures."
+					]
+				}
+			],
+			"range": "5",
+			"source": "RME"
+		},
+		{
+			"name": "Net (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 100,
+			"weight": 3,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"2H",
+				"T",
+				"ENT"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"A large or smaller creature hit by a net suffers the restrained condition until freed. Dealing 5 slashing damage to the net (AC10) frees the creature without harming it, ending the effect and destroying the net.",
+						"A normal net cannot be used against category size Huge or larger enemies, but larger nets may be able to be crafted, so long as a means to deploy them exists, as a net this big cannot be wielded by Medium or smaller creatures."
+					]
+				}
+			],
+			"range": "10",
+			"source": "RME"
+		},
+		{
+			"name": "Net (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 100,
+			"weight": 3,
+			"dmg1": "",
+			"dmg2": "",
+			"dmgType": "",
+			"property": [
+				"T",
+				"DEF",
+				"ENT",
+				"L",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If you have advantage when you entangle your enemy, it has disadvantage on the check made to escape."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Weapon Ability",
+					"entries": [
+						"Deflect uses 1d6",
+						"A large or smaller creature hit by a net suffers the restrained condition until freed. Dealing 5 slashing damage to the net (AC10) frees the creature without harming it, ending the effect and destroying the net.",
+						"A normal net cannot be used against category size Huge or larger enemies, but larger nets may be able to be crafted, so long as a means to deploy them exists, as a net this big cannot be wielded by Medium or smaller creatures."
+					]
+				}
+			],
+			"range": "15",
+			"source": "RME"
+		},
+		{
+			"name": "Throwing Shot (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 50,
+			"weight": 16,
+			"dmg1": "1d8",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"T",
+				"PEN",
+				"AW"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Strength Requirement",
+					"entries": [
+						"Requires a strength of at least 13 to wield."
+					]
+				}
+			],
+			"range": "10",
+			"source": "RME"
+		},
+		{
+			"name": "Throwing Shot (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 50,
+			"weight": 16,
+			"dmg1": "1d10",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"2H",
+				"T",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Strength Requirement",
+					"entries": [
+						"Requires a strength of at least 13 to wield."
+					]
+				}
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Throwing Shot (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 50,
+			"weight": 16,
+			"dmg1": "1d12",
+			"dmg2": "",
+			"dmgType": "B",
+			"property": [
+				"T",
+				"DIS",
+				"PEN",
+				"TRP"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"If you have advantage and both dice would have hit, or if you score a critical hit, your enemy is stunned until the end of its next turn. If you have disadvantage but one dice would have hit, deal your strength modifier in damage to the target, though this still counts as a miss."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Strength Requirement",
+					"entries": [
+						"Requires a strength of at least 13 to wield."
+					]
+				}
+			],
+			"range": "30/90",
+			"source": "RME"
+		},
+		{
+			"name": "Throwing Star (Simple)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L"
+			],
+			"range": "10/30",
+			"source": "RME"
+		},
+		{
+			"name": "Throwing Star (Martial)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Throwing Star (Master)",
+			"type": "R",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 10,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "P",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As an Action, you can force all targets of your choice in a 15ft cone to succeed on a Dexterity Saving Throw or suffer d4 plus your choice of Strength or Dexterity modifier in piercing damage. You throw as many stars as there are valid targets."
+					]
+				}
+			],
+			"range": "40/120",
+			"source": "RME"
+		},
+		{
+			"name": "Throwing Knife (Simple)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 25,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "bludgeoning, piercing, or slashing",
+			"property": [
+				"T",
+				"AW",
+				"CCL",
+				"F",
+				"L"
+			],
+			"range": "20/60",
+			"source": "RME"
+		},
+		{
+			"name": "Throwing Knife (Martial)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 25,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "bludgeoning, piercing, or slashing",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L"
+			],
+			"range": "30/90",
+			"source": "RME"
+		},
+		{
+			"name": "Throwing Knife (Master)",
+			"type": "M",
+			"weapon": true,
+			"weaponCategory": "Throwing",
+			"rarity": "none",
+			"value": 25,
+			"weight": 0.05,
+			"dmg1": "1d4",
+			"dmg2": "",
+			"dmgType": "bludgeoning, piercing, or slashing",
+			"property": [
+				"T",
+				"CCL",
+				"F",
+				"L"
+			],
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Mastery Perk",
+					"entries": [
+						"As an action, you can force all targets of your choice within 10ft to succeed on a Dexterity Saving Throw or take d4 plus your choice of your Strength or Dexterity modifier in piercing damage. You throw as many knives as there are valid targets."
+					]
+				}
+			],
+			"range": "60/120",
+			"source": "RME"
+		},
+		{
+			"name": "Padded",
+			"type": "LA",
+			"rarity": "none",
+			"value": 500,
+			"weight": 4,
+			"ac": 11,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Thick padding made of quilted fabrics or furs, this armor provides little more than slight protection from incidental contact, and restricts the wearer's movement"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Leather",
+			"type": "LA",
+			"rarity": "none",
+			"value": 1000,
+			"weight": 5,
+			"ac": 11,
+			"armor": true,
+			"stealth": false,
+			"entries": [
+				"This leather is of moderate thickness but is unhardened and offers similar protection to padded, but the thinner material no longer restricts the wearer"
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Studded Leather",
+			"type": "LA",
+			"rarity": "none",
+			"value": 4500,
+			"weight": 6,
+			"ac": 12,
+			"armor": true,
+			"stealth": false,
+			"entries": [
+				"This leather thicker hard hide has been studded with metal rivets or brackets to offer some increased protection. The increased time to stud the leather while not damaging its integrity adds to the manufacturing cost."
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Lacquered Leather",
+			"type": "LA",
+			"rarity": "none",
+			"value": 15000,
+			"weight": 6,
+			"ac": 13,
+			"armor": true,
+			"stealth": false,
+			"entries": [
+				"This leather has been boiled in wax or water and painted with lacquer to toughen it as hard as modern plastics. It offers superior protection to other light armors without increasing weight, but the required skill to boil or otherwise harden leather without ruining it adds to the cost."
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Chain Shirt",
+			"type": "MA",
+			"rarity": "none",
+			"value": 5000,
+			"weight": 10,
+			"ac": 13,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"This is a shirt of butted mail. It is easy to produce, due to less time simply twisting chain rings into place, rather than welding each link closed. As such, the chain shirt offers less protection than the hauberk but is lighter and more affordable."
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Ring Mail",
+			"type": "MA",
+			"rarity": "none",
+			"value": 10000,
+			"weight": 12,
+			"ac": 14,
+			"armor": true,
+			"stealth": false,
+			"entries": [
+				"series of closed rings stitched to a thick leather backing. This armor takes about as long as a Chain shirt to make and is similar in cost, but due to the combined protection of the leather backing and metal rings, offers greater protection than either one separately. Unfortunately, this combined armor is more restrictive."
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Breastplate",
+			"type": "MA",
+			"rarity": "none",
+			"value": 30000,
+			"weight": 10,
+			"ac": 15,
+			"armor": true,
+			"stealth": false,
+			"entries": [
+				"Wearing just the breastplate of a suit of plate armor, this armor provides the easiest mobility of the medium armors and more protection than the chain shirt or ring mail. However, plate is expensive to make and thus has a greatly increased cost."
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Banded Mail",
+			"type": "MA",
+			"rarity": "none",
+			"value": 50000,
+			"weight": 20,
+			"ac": 16,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"The quintessential half-plate, also known as lorica, this armor is a series of metal ribbons banded together to form more complete protection. Banded mail is cheaper to produce than full plate, but is still quite a process, involving many steel plates and precise shaping."
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Hauberk",
+			"type": "HA",
+			"rarity": "none",
+			"value": 15000,
+			"weight": 25,
+			"ac": 15,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"This is a full suit of chain armor made with riveted or welded rings, making the suit incredibly durable. The Hauberk covers both sleeves and stops at the knee, offering near complete coverage. Unfortunately, it is not silent in the least."
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Scale Mail",
+			"type": "HA",
+			"rarity": "none",
+			"value": 30000,
+			"weight": 30,
+			"ac": 16,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Taking chainmail and adding a scale to each ring gives a substantial increase to protection without much increase in the manufacturing process but adds quite a bit of weight. Scale armor is just as noisy to move around in as the Hauberk."
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Splint",
+			"type": "HA",
+			"rarity": "none",
+			"value": 75000,
+			"weight": 33,
+			"ac": 17,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"Splint armor can be described as the poor man’s plate. Instead of steel shaped to fit the wearer, a series of small, palm-sized plates and finger sized “splints” of metal are tied together to form a coat. It is cheaper to produce but is not nearly as durable."
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Plate",
+			"type": "HA",
+			"rarity": "none",
+			"value": 150000,
+			"weight": 40,
+			"ac": 18,
+			"armor": true,
+			"stealth": true,
+			"entries": [
+				"The essential Knight’s armor. Plate is extremely difficult and costly to produce, is the heaviest and most restrictive of all armor. However, no other armor is more protective. All parts of the body are covered, even the wearer's joints."
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Buckler",
+			"type": "S",
+			"rarity": "none",
+			"value": 150000,
+			"weight": 40,
+			"ac": 1,
+			"stealth": false,
+			"entries": [
+				"A buckler, or target shield, is a small shield that can be passive as a forearm guard, or as an active deflection shield. While it is strapped to the arm, that hand is counted as open. The master's deflect sets them up for the perfect counter.",
+				"Donning a buckler takes a full action to strap it, but an Object Interaction to hold it.",
+				{
+					"type": "entries",
+					"name": "Simple Training",
+					"entries": [
+						"Shields gains a flat +1 shield bonus to AC, but suffers disadvantage to all Attack rolls and to all Strength and Dexterity checks.",
+						"A shield strapped on cannot be disarmed, while a shield held in the hand can be disarmed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Training",
+					"entries": [
+						"If you wield a weapon in the same hand as the buckler, you suffer -2 to Attack rolls with it. If you are wielding only the buckler in your off hand, it has Deflect (d8)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Master Training",
+					"entries": [
+						"You only suffer -1 to attack for wielding a weapon with the buckler hand. You may add the deflect roll from the buckler to any deflect roll you make with your main hand, and if this roll reduces incoming damage to 0, you may immediately make an attack against your attacker as part of the same reaction."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Skirmish",
+			"type": "S",
+			"rarity": "none",
+			"value": 150000,
+			"weight": 40,
+			"ac": 2,
+			"stealth": false,
+			"entries": [
+				"Skirmish shields come in a variety of shapes but are about the size of the user's torso. You strap the shield to your forearm and grip it with your hand, or grasp it with a centergrip, occupying your off hand. A Skirmish shield is large enough to provide better passive protection than the buckler, while still providing the agility missing with a tower shield. The Master can extend this agility to even spell attacks.",
+				"Donning a skirmish shield takes a full action to strap it, but an Bonus Action to hold it.",
+				{
+					"type": "entries",
+					"name": "Simple Training",
+					"entries": [
+						"Shields gains a flat +1 shield bonus to AC, but suffers disadvantage to all Attack rolls and to all Strength and Dexterity checks.",
+						"A shield strapped on cannot be disarmed, while a shield held in the hand can be disarmed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Training",
+					"entries": [
+						"You gain an additional +2AC bonus against ranged weapon attacks, adding +4AC in total."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Master Training",
+					"entries": [
+						"You gain an additional +2AC bonus against ranged spell attacks, adding +4 in total, and a successful shove deals d4 + Strength modifier in bludgeoning damage."
+					]
+				}
+			],
+			"source": "RME"
+		},
+		{
+			"name": "Tower",
+			"type": "S",
+			"rarity": "none",
+			"value": 150000,
+			"weight": 40,
+			"ac": 3,
+			"stealth": false,
+			"entries": [
+				"This massive shield is as tall as you and just as wide; you more fight around it like a door than moving it with your body, like carrying a piece of mobile cover. The master shieldman can take cover at a moment's notice, effectively giving the enemy no target.",
+				"Donning a tower shield takes a full action to strap it or hold it.",
+				{
+					"type": "entries",
+					"name": "Simple Training",
+					"entries": [
+						"Shields gains a flat +1 shield bonus to AC, but suffers disadvantage to all Attack rolls and to all Strength and Dexterity checks.",
+						"A shield strapped on cannot be disarmed, while a shield held in the hand can be disarmed."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Martial Training",
+					"entries": [
+						"You negate any flanking bonus an enemy might have on you. Additionally, you may use your reaction to gain half cover, possibly negating an attack, or granting you a bonus to your dexterity saving throw before you roll."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Master Training",
+					"entries": [
+						"While using the shield as cover, if you are subjected to an effect that allows you to make a dexterity saving throw, and you fail that save, you take only half damage."
+					]
+				}
+			],
+			"source": "RME"
+		}
+	]
+}
